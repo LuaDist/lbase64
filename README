@@ -1,0 +1,20 @@
+This is a base64 library for Lua 5.0. Base64 is a format for coding binary
+data with text used in MIME.
+
+To try this Lua library, edit Makefile to reflect your installation of Lua.
+Then run make. This will build lbase64.so and run a simple test. If everything
+is ok, install lbase64.so and base64.lua in some official place. You may want
+to edit base64.lua to change the default value of SOPATH (you can also set the
+environment variable LUA_SOPATH at run time).
+
+Here is a brief explanation of the files in this package:
+  lbase64.c        base64 library
+  base64.lua       support code
+  test.lua         test code
+
+There is no manual but the library is simple and intuitive. There are two
+functions: encode and decode. The examples in test.lua show the library in
+action.
+
+This code is hereby placed in the public domain.
+Please send comments, suggestions, and bug reports to lhf@tecgraf.puc-rio.br .
