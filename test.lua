@@ -1,15 +1,13 @@
 -- test base64 library
 
+require"base64"
+
 print(base64.version)
 print""
 
 function test(s)
- --print""
- --print(string.len(s),s)
  local a=base64.encode(s)
- --print(string.len(a),a)
  local b=base64.decode(a)
- --print(string.len(b),b)
  print(string.len(s),b==s,a,s)
  assert(b==s)
 end
@@ -63,3 +61,5 @@ print(a,b,string.len(b))
 
 print""
 print(base64.version)
+
+-- eof
