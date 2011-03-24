@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "lbase64"
+version = "5.1"
+
+desc = "A Base64 library for Lua"
+author = "Luiz Henrique de Figueiredo"
+url = "http://www.tecgraf.puc-rio.br/~lhf/ftp/lua/#lbase64"
+license = "Public domain"
+maintainer = "Peter Drahoš"
+
+depends = {
+	"lua ~> 5.1"
+}
