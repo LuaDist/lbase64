@@ -1,0 +1,28 @@
+type = "x86"
+arch = "Windows"
+author = "Luiz Henrique de Figueiredo"
+depends = {
+[[lua ~> 5.1]],
+}
+
+desc = "A Base64 library for Lua"
+version = "5.1"
+maintainer = "Peter Drahoš"
+files = {
+Runtime = {
+[[lib\lua\base64.dll]],
+}
+,
+Data = {
+[[share\lbase64\README]],
+}
+,
+Test = {
+[[share\lbase64\test\test.lua]],
+}
+,
+}
+
+url = "http://www.tecgraf.puc-rio.br/~lhf/ftp/lua/#lbase64"
+name = "lbase64"
+license = "Public domain"
